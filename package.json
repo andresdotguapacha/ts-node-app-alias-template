@@ -1,0 +1,22 @@
+{
+  "name": "my-ts-node-app-alias",
+  "version": "1.0.0",
+  "description": "Node.js application with TypeScript using \"alias\" or \"relative paths\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon",
+    "prestart": "npm run build",
+    "start": "ts-node --project ./tsconfig.json -r tsconfig-paths/register dist/index.js"
+  },
+  "keywords": ["node", "typescript", "ts-node" ,"tsconfig-paths", "nodemon"],
+  "author": "Andres Guapacha",
+  "license": "GNU",
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.7.3"
+  }
+}

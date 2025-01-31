@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Compile to ES5 for broader compatibility
+    "module": "commonjs", // Use CommonJS modules (Node.js default)
+    "sourceMap": true, // Generate source maps for debugging
+    "outDir": "dist", // Output compiled files to the `dist` folder
+    "rootDir": "src", // Define the root directory for your source files
+    "baseUrl": ".", // Required for path aliases
+    "esModuleInterop": true, // Enable better compatibility with ES modules
+    "strict": true, // Enable strict type-checking options
+    "skipLibCheck": true, // Skip type-checking of library files
+    "paths": { // Define path aliases
+      "@utils/*": ["src/utils/*"] // Example alias
+    }
+  },
+  "ts-node": { // Configuration for ts-node
+    "transpileOnly": true, // Speeds up development
+    "require": ["tsconfig-paths/register"] // Enable path aliases in ts-node
+  },
+  "include": ["src/**/*"], // Include all files in the `src` directory
+  "exclude": ["node_modules"] // Exclude `node_modules` from compilation
+}
