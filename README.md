@@ -2,7 +2,7 @@
 # Guide: Setting Up Node.js with TypeScript and Path Aliases
 Node.js application with TypeScript using "alias" or "relative paths"
 
-# my-ts-node-app-alias
+# ts-node-app-alias-template
 
 ## Installation
 
