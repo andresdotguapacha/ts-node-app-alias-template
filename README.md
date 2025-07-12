@@ -8,11 +8,11 @@ Node.js application with TypeScript using "alias" or "relative paths"
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/my-ts-node-app-alias.git
+   git clone https://github.com/andresdotguapacha/ts-node-app-alias-template.git
    ```
 2. Navigate to the project directory:
    ```
-   cd my-ts-node-app-alias
+   cd ts-node-app-alias-template
    ```
 3. Install the dependencies:
    ```
